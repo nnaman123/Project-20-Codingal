@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+       <title>Javascript String Methods</title> 
+    </head>
+    <body>
+        <h1>Javascript String Methods</h1>
+        <p>Basic Methods</p>
+        <script>
+            var str = "AmAzIng JaVaScRiPt";
+            document.write(str.toUpperCase());
+            document.write("<br>");
+            document.write(str.toLowerCase());
+            document.write("<br>");
+            document.write(str.startsWith("ix"));
+            document.write("<br>");
+
+            //Test Method -->Returns true if the string contains the specified value and returns false if not
+            var str1 = "I learnt about methods";             
+            var patt = new RegExp("about");
+            var res = patt.test(str);
+            document.write(res);
+        </script>
+    </body>
+  </html>
